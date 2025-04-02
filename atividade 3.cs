@@ -23,6 +23,18 @@ namespace atividade_2_aula_dia_02_04
         {
             string inicio;
             double preço, total;
+
+             string inicio;
+ double preço = 0, total;
+
+ Console.Write("Digite o nome do produto: ");
+ inicio = Console.ReadLine();
+ Console.ReadLine();
+ Console.WriteLine("----------------------------");
+ Console.Write("Digite o preço R$: ");
+
+ total = preço - preço * 0.10;
+ Console.ReadKey();
         }
     }
 }
